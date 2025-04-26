@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drink_types">
+        <item>Water</item>
+        <item>Coffee</item>
+        <item>Tea</item>
+        <item>Juice</item>
+        <item>Milk</item>
+        <item>Sports Drink</item>
+        <item>Other</item>
+    </string-array>
+</resources> 

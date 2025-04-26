@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card Colors - Dark mode versions -->
+    <color name="card_small">#0277BD</color>
+    <color name="card_medium">#01579B</color>
+    <color name="card_large">#0D47A1</color>
+    
+    <!-- Card background for dark theme -->
+    <color name="card_background">@color/dark_surface</color>
+    
+    <!-- Text colors for dark theme -->
+    <color name="text_primary">@color/dark_text_primary</color>
+    <color name="text_secondary">@color/dark_text_secondary</color>
+    
+    <!-- Progress background for dark theme -->
+    <color name="progress_background">#263238</color>
+</resources> 

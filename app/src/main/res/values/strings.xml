@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hydrify</string>
+    
+    <!-- Navigation Titles -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_add">Add Hydration</string>
+    
+    <!-- Dashboard -->
+    <string name="today_progress">Today\'s Progress</string>
+    <string name="weekly_stats">Weekly Stats</string>
+    <string name="quick_add">Quick Add</string>
+    <string name="small_glass">Small\n150ml</string>
+    <string name="medium_glass">Medium\n250ml</string>
+    <string name="large_glass">Large\n500ml</string>
+    
+    <!-- Add Fragment -->
+    <string name="add_water_intake">Add Water Intake</string>
+    <string name="enter_amount">Enter amount (ml)</string>
+    <string name="amount_ml">%d ml</string>
+    <string name="select_type">Select type</string>
+    <string name="preset_amounts">Preset Amounts</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="added_amount">Added %d ml of %s</string>
+    <string name="enter_valid_amount">Please enter a valid amount</string>
+    
+    <!-- History Fragment -->
+    <string name="no_entries">No entries for this day</string>
+    <string name="total_intake">Total: %d ml</string>
+    <string name="today">Today</string>
+    <string name="previous_day">Previous Day</string>
+    <string name="next_day">Next Day</string>
+    <string name="calendar">Calendar</string>
+    <string name="empty_state_message">No hydration entries for this day.\nTap the + button to add one.</string>
+    
+    <!-- Settings Fragment -->
+    <string name="settings">Settings</string>
+    <string name="set_daily_goal">Set Daily Goal</string>
+    <string name="set_your_daily_water_intake_goal">Set your daily water intake goal</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="ml_value">%d ml</string>
+    <string name="weight">Weight</string>
+    <string name="kg_value">%d kg</string>
+    <string name="activity_level">Activity Level</string>
+    <string name="activity_low">Low</string>
+    <string name="activity_moderate">Moderate</string>
+    <string name="activity_high">High</string>
+    <string name="reminders">Reminders</string>
+    <string name="status">Status</string>
+    <string name="status_enabled">Enabled</string>
+    <string name="status_disabled">Disabled</string>
+    <string name="interval">Interval</string>
+    <string name="minutes_value">%d minutes</string>
+    <string name="wake_time">Wake Time</string>
+    <string name="sleep_time">Sleep Time</string>
+    <string name="save">Save</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="calculate">Calculate</string>
+    <string name="reminders_enabled">Reminders enabled</string>
+    <string name="reminders_disabled">Reminders disabled</string>
+    <string name="enter_valid_goal">Please enter a valid goal</string>
+    <string name="enter_valid_weight">Please enter a valid weight</string>
+    <string name="enter_valid_interval">Please enter a valid interval</string>
+    <string name="set_wake_time">Set Wake Time</string>
+    <string name="set_sleep_time">Set Sleep Time</string>
+    <string name="set_reminders_to_stay_hydrated">Set reminders to help you stay hydrated throughout the day</string>
+    <string name="enable_reminders">Enable Reminders</string>
+    <string name="remind_me_every">Remind me every</string>
+    <string name="quiet_hours">Quiet Hours</string>
+    <string name="to">to</string>
+    <string name="user_information">User Information</string>
+    <string name="personalize_your_experience">Personalize your experience</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="age">Age</string>
+    <string name="enter_custom_goal">Enter custom goal</string>
+    
+    <!-- Misc -->
+    <string name="add_hydration">Add Hydration</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_light">sans-serif-light</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">Theme Settings</string>
+    <string name="theme_title">App Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">Follow System</string>
+    <string name="customize_appearance">Customize appearance</string>
+</resources>

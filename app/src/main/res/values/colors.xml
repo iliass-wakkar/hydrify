@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App Theme Colors - Updated with modern palette -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#29B6F6</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#616161</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#F8F9FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="stroke_light">#E0E0E0</color>
+    
+    <!-- Dark theme colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1D1D1D</color>
+    <color name="dark_primary">#81D4FA</color>
+    <color name="dark_accent">#4FC3F7</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#B0BEC5</color>
+    
+    <!-- Text Colors - Improved contrast -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_disabled">#9E9E9E</color>
+    
+    <!-- Card Colors - More vibrant and distinguishable -->
+    <color name="card_small">#4FC3F7</color>
+    <color name="card_medium">#039BE5</color>
+    <color name="card_large">#0277BD</color>
+    
+    <!-- Progress Colors - Enhanced visibility -->
+    <color name="progress_background">#E1F5FE</color>
+    <color name="progress_low">#EF5350</color>
+    <color name="progress_medium">#FF9800</color>
+    <color name="progress_high">#66BB6A</color>
+</resources>
