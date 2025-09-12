@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Widget.ThinSlider" parent="Widget.MaterialComponents.Slider">
+        <item name="trackHeight">2dp</item>
+        <item name="thumbRadius">8dp</item>
+        <item name="trackColorActive">@color/primary</item>
+        <item name="trackColorInactive">@color/primary</item>
+        <item name="thumbColor">@color/primary</item>
+        <item name="thumbStrokeColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Add this theme overlay -->
+    <style name="CustomTimePickerTheme" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <!-- Clock Mode (numbers color) -->
+        <item name="colorOnSurface">@color/black</item>
+        <!-- Selection and clock hand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- Spinner Mode (numbers color) -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <!-- No problematic text appearance attributes! -->
+    </style>
+
+    <style name="ClockNumberText" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/timepicker_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TitleText" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/timepicker_black</item>
+    </style>
     <!-- Button Styles - Updated with modern styling -->
     <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/button_rounded</item>

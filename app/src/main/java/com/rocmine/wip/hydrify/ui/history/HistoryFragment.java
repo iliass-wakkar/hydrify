@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.rocmine.wip.hydrify.R;
 import com.rocmine.wip.hydrify.adapter.HydrationEntryAdapter;
-import com.rocmine.wip.hydrify.database.HydrationDatabaseHelper;
+import com.rocmine.wip.hydrify.database.DatabaseHelper;
 import com.rocmine.wip.hydrify.model.HydrationEntry;
 
 import java.text.SimpleDateFormat;
@@ -34,7 +34,7 @@ public class HistoryFragment extends Fragment implements HydrationEntryAdapter.O
     private TextView emptyStateTextView;
     private TextView totalIntakeTextView;
 
-    private HydrationDatabaseHelper dbHelper;
+    private DatabaseHelper dbHelper;
     private HydrationEntryAdapter adapter;
     private Calendar selectedDate;
     private SimpleDateFormat dateFormat;
@@ -44,7 +44,7 @@ public class HistoryFragment extends Fragment implements HydrationEntryAdapter.O
         View root = inflater.inflate(R.layout.fragment_history, container, false);
 
         // Initialize database helper
-        dbHelper = new HydrationDatabaseHelper(requireContext());
+        dbHelper = new DatabaseHelper(requireContext());
 
         // Initialize date handling
         selectedDate = Calendar.getInstance();

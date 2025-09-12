@@ -30,4 +30,10 @@
         <item name="windowSplashScreenAnimationDuration">800</item>
         <item name="postSplashScreenTheme">@style/Theme.Hydrify</item>
     </style>
+
+    <!-- No ActionBar theme -->
+    <style name="Theme.Hydrify.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

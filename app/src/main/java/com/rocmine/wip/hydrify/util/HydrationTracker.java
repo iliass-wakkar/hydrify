@@ -15,7 +15,7 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
 import com.rocmine.wip.hydrify.R;
-import com.rocmine.wip.hydrify.database.HydrationDatabaseHelper;
+import com.rocmine.wip.hydrify.database.DatabaseHelper;
 import com.rocmine.wip.hydrify.model.HydrationEntry;
 import com.rocmine.wip.hydrify.receiver.HydrationReminderReceiver;
 
@@ -39,7 +39,7 @@ public class HydrationTracker {
     
     private final Context context;
     private final SharedPreferences prefs;
-    private final HydrationDatabaseHelper dbHelper;
+    private final DatabaseHelper dbHelper;
     
     // Default values
     private static final int DEFAULT_DAILY_GOAL = 2000; // 2 liters (2000ml)
@@ -53,7 +53,7 @@ public class HydrationTracker {
     public HydrationTracker(Context context) {
         this.context = context;
         this.prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
-        this.dbHelper = new HydrationDatabaseHelper(context);
+        this.dbHelper = new DatabaseHelper(context);
         
         createNotificationChannel();
     }

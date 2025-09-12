@@ -20,7 +20,7 @@ import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.formatter.IndexAxisValueFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
 import com.rocmine.wip.hydrify.R;
-import com.rocmine.wip.hydrify.database.HydrationDatabaseHelper;
+import com.rocmine.wip.hydrify.database.DatabaseHelper;
 import com.rocmine.wip.hydrify.util.HydrationTracker;
 
 import java.text.SimpleDateFormat;
@@ -160,7 +160,7 @@ public class DashboardFragment extends Fragment {
 
     private List<BarEntry> getWeeklyData() {
         List<BarEntry> entries = new ArrayList<>();
-        HydrationDatabaseHelper dbHelper = new HydrationDatabaseHelper(requireContext());
+        DatabaseHelper dbHelper = new DatabaseHelper(requireContext());
         
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());

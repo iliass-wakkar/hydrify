@@ -4,7 +4,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- App Theme Colors - Updated with modern palette -->
-    <color name="primary">#1976D2</color>
+    <color name="primary">#5DCAFC</color>
     <color name="primary_dark">#0D47A1</color>
     <color name="primary_light">#BBDEFB</color>
     <color name="accent">#29B6F6</color>
@@ -38,4 +38,6 @@
     <color name="progress_low">#EF5350</color>
     <color name="progress_medium">#FF9800</color>
     <color name="progress_high">#66BB6A</color>
+    <color name="timepicker_black">#FF000000</color>
+
 </resources>
